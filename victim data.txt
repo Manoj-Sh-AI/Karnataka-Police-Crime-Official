@@ -1,0 +1,46 @@
+insert into victim values("Shivani",30,"Female","2014-05-07","WFPF+4WC, Naubad, Bidar, Karnataka 585402","Bidar","Revenge","17.93534312162946, 77.47475487092804","Knife"),
+("Kunal",40,"Male","2017-03-07","Kumbarwada Rd, Lalwadi, Bidar, Karnataka 585401","Bidar","Love affairs","17.898870869617824, 77.52775472568439","Gun"),
+("Ayaan",45,"Male","2013-04-06","8RRP+59C, Halbarga, Brhampur, Kalaburagi, Karnataka 585101","Gulbarga","property dispute","17.340693518368184, 76.83585841033327","Unknow"),
+("Ishaan",50,"Male","2011-09-08","Jagat, Kalaburagi, Karnataka 585105","Gulbarga","Casteism","17.33414863024245, 76.83645772309235","Sword"),
+("Rudra",35,"Male","2010-01-03","682V+PRM, near Sri Guru Computers, Ghalib Nagar, Jawahar Nagar, Raichur, Karnataka 584103","Raichur","Sudden anger","16.22550786374053, 77.36960190771977","Axe"),
+("Saanvi",41,"Female","2010-05-07","59R7+3CR RTO Bus Stop, Ashok Nagar, Raichur, Karnataka 584103","Raichur","Love affairs","16.19244678289477, 77.36312024862268","Poison"),
+("Zara",56,"Female","2019-07-01","Mysuru, Hassan Chamaraja, Ananda Nagara Rd, Karnataka 573210","Mysuru","Sudden anger","12.65881779255543, 76.25777238804213","Poison"),
+("Meera",67,"Female","2020-06-20","8M63+7WQ, Lashkar Mohalla, Mandi Mohalla, Mysuru, Karnataka 570001","Mysuru","Revenge","12.310932616015181, 76.65484866793265","Knife"),
+("Veer",38,"Male","2021-04-03","XHGG+25Q, Circle, Kempegowda, Majestic, Bengaluru, Karnataka 560009","Bengaluru Rural","Matrimonal dispute","12.97527943397234, 77.57550422561164","Unknow"),
+("Shilpa",44,"Female","2015-07-25","Banashankari, Bengaluru, Karnataka 560070","Bengaluru Urban","Revenge","12.919490687913589, 77.57002302850249","Axe"),
+("Mayur",35,"Male","2006-02-09","VGG7+VQ5, Kolhapur Circle, Ayodhya Nagar, Sadashiv Nagar, Belagavi, Karnataka 590010","Belagavi","Revenge","15.877198043180158, 74.51450015567715","Sword"),
+("Maya",28,"Female","2000-08-23","Shop.No.2, Ground floor, Ward.No.5, Agarwala Building, Station Rd, opp. Kyraid Hotel, Vijayapura, Karnataka 586101","Vijayapura","Matrimonal dispute","16.827743485246774, 75.72849957270475","Knife"),
+("Arpita",19,"Female","2001-08-10","Q4CV+57R, Chakar Katta Rd, Yadgiri, Karnataka 585201","Yadagiri","Accidental","16.769923563480248, 77.14474161943562","Unknow"),
+("Bhuvan",34,"Male","2003-10-09","87JV+C29, Unnamed Road, Mudhol, Karnataka 587313","Bagalkote","Self defence","16.33194527104488, 75.29255875745599","Gun"),
+("Chandan",53,"Male","2016-11-07","F234+WVX, Hosayellapur, Dharwad, Karnataka 580001","Dharwada","Mental health","15.455110670438035, 75.0071914814682","Knife"),
+("Sai",45,"Male","2017-06-14","CJF8+5MJ, Balaganur Rd, Zakir Hussain Colony, Tanga Koot, Gadag-Betageri, Karnataka 582101","Gadag","Revenge","15.431466556680531, 75.63558239680965","Unknow"),
+("Avinash",29,"Male","2018-01-27","9544+P9W, Kinnal Road, kinnala Road, Kalyan Nagar, Koppal, 583231","Koppala","Casteism","15.358303411863009, 76.1549546544795","Knife"),
+("Gopal",37,"Male","2019-04-23","4WX6+J3G, Devi Nagar, Ballari, Karnataka 583104","Ballari","Accidental","15.149217829402412, 76.91019236797004","Axe"),
+("Heena",48,"Female","2008-04-08","SNO.215-E-1,216/A4, VILLAGE, 583203, Abheraj Baldota Rd, Hosapete, Karnataka 583203","Vijayanagara","Revenge","15.262811629510585, 76.3754793381333","Knife"),
+("Jaya",61,"Female","2010-08-17","Haveri District Stadium, Haveri Rd, Netaji Nagar, Vidya Nagar, Haveri, Karnataka 581110","Haveri","property dispute","14.79743620397486, 75.40010894097762","Knife"),
+
+("Abbaz",31,"Male","2007-03-03","CPJG+HVF, Chikballapur Rural, Karnataka 562101","Chikkaballapura","sexual case","13.43163576282447, 77.72708606609847","Knife"),
+("Atharv",33,"Male","2008-02-17","44MG+2P5, MB Road, Dargah Shahi Mohalla, Dargah Shahi Mohallah, Kuvempu Nagar, Kolar, Karnataka 563101","Kolar","Mental health","13.132330542050026, 78.12605823910725","Knife"),
+("Abishek",34,"Male","2011-04-28","P769+QRH, Ramnagar, Archikarahalli, Ramanagara, Karnataka 562159","Ramanagara","Sudden anger","12.71210494470471, 77.2695772102666","Knife"),
+("Kabir",61,"Male","2015-07-03","K V Shankaragowda Rd, PES College Campus, Mandya, Karnataka 571401","Mandya","sexual case","12.520558212341886, 76.88139641026429","Knife"),
+("Dev",42,"Male","2019-06-09","No 21, Salagame Rd, Rangoli Halla, Hassan, Karnataka 573202","Hassana","Mental health","13.024471711577, 76.10137095444766","Axe"),
+("Parimala",36,"Female","2020-10-03","Sharavooru post, Alankar Village, Kadaba, Karnataka 574285","Dakshina Kannada","property dispute","12.76006263239494, 75.34937376978615","Knife"),
+("Mallika",17,"Female","2021-12-03","8J7W+V24, Yemmamadu, Karnataka 571214","Kodagu","Self defence","12.328103177610178, 75.79204239523845","Knife"),
+("Pooja",39,"Female","2021-10-07","WWHV+56V, Chamarajanagar,, Bramaramba Extension, Chamarajanagar, Karnataka 571313","Chamarajanagara","Revenge","11.928228926587343, 76.94307908326999","Gun"),
+("Yuvaraj",21,"Male","2005-05-03","VG7F+2JV, Belgaum Fort Area, Belagavi, Karnataka 590016","Belagavi","Matrimonal dispute","15.862808574241402, 74.52403616798065","Sword"),
+("Urmi",31,"Transgender","2005-07-09","5J78+9VP, Udyanagiri, Near Seemekeri Cross, Hubli Bypass Road, Navanagar, Bagalkote, Karnataka 587104","Bagalkote","Self defence","16.163627817630587, 75.61728631319966","Knife"),
+("Pruthvi",28,"Male","2012-08-16","SH 57, RG Rd, opposite Government Polytechnic, Vijayapura, Chikkamagaluru, Karnataka 577101","Chikkamagaluru","Revenge","13.339497145695452, 75.7716559339665","Knife"),
+
+
+//Insertion
+
+insert into victim values("Shubham",57,"Male","2012-05-09","Marenahalli Rd, 8th Block, 1st Phase, Jayanagar, Bengaluru, Karnataka 560070","Bengaluru Urban","12.917655194587951,77.57745852561088","Gun"),
+("Kaveri",20,"Female","2011-07-18","VC8M+9PH, Kaiga, Karnataka 581400","Uttara Kannada","Matrimonal dispute","14.866134514386832, 74.43435939680145","Axe"),
+("Arbaaz",27,"Male","2013-08-08","XH27+53V, Vinoba Nagara, Shivamogga, Karnataka 577204","Shivamogga","Self defence","13.950674913030463, 75.56260752377617","Knife"),
+
+
+
+("Vihaan",49,"Male","2014-12-12","FW53+F68, S S Layout B Block, S S Layout x, cc Block, Nijalingappa Layout, Davanagere, Karnataka 577004","Davanagere","Revenge","14.45889104849044, 75.90306736796033","Gun"),
+("Yuvaan",30,"Male","2016-09-07","Bus Stand, K.S.R.T.C, PB Rd, Gumasthara Colony, Chitradurga, Karnataka 577501","Chitradurga","sexual case","14.227203684860864, 76.39611075446348","Sword"),
+("Ragini",55,"Female","2017-11-10","8PJV+HRQ, Brahmagiri, Udupi, Karnataka 576101","Udupi","Matrimonal dispute","13.331681724630116, 74.74465231212245","Knife"),
+("Darsh",32,"Male","2017-01-03","Geddalahalli Ring Road, Bangalore-Shimoga Bypass Rd, Sapthagiri Extension, Tumakuru, Karnataka 572102","Tumakuru","Revenge","13.313641763355267, 77.11047058009662","Gun");

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flip login and signup page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(187, 187, 245);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.26);
+    perspective: 1000px;
+}
+
+.innerbox {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 100, 0.864), rgba(0, 0, 100, 0.864)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmCBhNpxDNinO4hUvQshPw9f_Qds2sB2m_9A&usqp=CAU");
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+.card-back{
+    transform: rotateY(180deg);
+}
+
+.card h2{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    padding: 0 10px;
+    height: 37px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    outline: none;
+}
+
+::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+button{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    padding: 0 10px;
+    color: #fff;
+    height: 37px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    outline: none;  
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    margin: 6px 0;
+    padding: 0 10px;
+    height: 37px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    outline: none;    
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+.submit-btn::after{
+    content: '\27a4';
+    color: #333;
+    line-height: 37px;
+    font-size: 20px;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -1px;
+    top: -1px;
+}
+span{
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.card .btn{
+    margin-top: 70px;
+}
+.card a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="innerbox"  id="card">
+                <div class="card-front">
+                    <h2>LOGIN<br>HERE<br><br></h2>
+                    <form action="/second" method="POST">
+                       <input type="email" name="dept_email" class="input-box" placeholder="Enter your email" required>
+                       <input type="password" name="passwd" class="input-box" placeholder="Password" required>
+                       <input type="submit" class="submit-btn" value="LOGIN">
+                       <!-- <input type="checkbox"><span>Remember Me</span>                        -->
+                    </form>
+                    <!-- <button type="button" class="btn">Create new Account</button> -->
+                    <!-- <a href="">Forgot Password</a> -->
+                </div>
+                <!-- <div class="card-back">
+                    <h2>SIGNUP</h2>
+                    <form>
+                        <input type="text" class="input-box" placeholder="Enter your name" required>
+                        <input type="email" class="input-box" placeholder="Enter your email" required>
+                        <input type="password" class="input-box" placeholder="Password" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox"><span>Remember Me</span>                       
+                    </form>
+                    <button type="button" class="btn">Already have account</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- <script>
+        document.querySelectorAll("button")[1].addEventListener("click", function (){
+            document.getElementById("card").style.transform="rotateY(-180deg)";
+        });
+        document.querySelectorAll("button")[3].addEventListener("click", function (){
+            document.getElementById("card").style.transform="rotateY(0deg)";
+        });
+        
+    </script> -->
+</body>
+
+</html>
